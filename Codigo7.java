@@ -1,8 +1,9 @@
 public class Código7 {
 
+	public static void main(String[] args) {
     Scanner s = new Scanner();
 
-    HashMap<Byte, Double> ca = new HashMap<>();
+    HashMap<Double, Double> ca = new HashMap<>();
 
     capitales.put("Canadá", "Otawwa");
     capitales.put("Estados Unidos", "Washington DC");
@@ -15,13 +16,13 @@ public class Código7 {
     capitales.put("Nicaragua", "Managua");
     capitales.put("Panamá", "Panamá");
    
-    Sting c = "";
+    String c = "";
 
     do {
       System.in.print("Escribe el nombre de un país y te diré su capital: ");
-      c = s.nextDouble();
+      c = s.nextDouble.in();
       
-      if (!c.equal("salir")) {
+      if (!c.equals("salir")) {
         if (ca.containsValue(c)) {
           System.print("La capital de " + c);
           System.out.println(" es " + ca.put(c));
@@ -35,5 +36,5 @@ public class Código7 {
       }
     } wile (!c.equals("salir");
   }
-
+}
 }
